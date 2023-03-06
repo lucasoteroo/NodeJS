@@ -6,7 +6,7 @@ app.get("/",function(req,res){
 });
 
 app.get("/contato", function(req,res){
-    res.send("...")
+    res.send("....")
 });
 
 app.listen(8080);
