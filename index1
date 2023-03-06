@@ -1,0 +1,12 @@
+console.log("gerenciador financeiro");
+
+var cliente = "LucaS Sotero" ;
+console.log("Cliente: "+cliente);
+
+var valorProduto= 100;
+var valorDesconto=37;
+
+var discontFunc=require("./modules/Caldesc");
+
+resultado=discontFunc(valorProduto,valorDesconto);
+console.log(resultado);
